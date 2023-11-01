@@ -31,11 +31,39 @@ García Cerillo Angel Albino
 	</p>
 -----------------------------------------------------------------------------------------------------------------
 ---CAPITULO 2---
-Preguntas
 	Como se accede a memoria en ARM?
 En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones
 específicas ldr y str
+	
+	Que es el direccionamiento inmediato?
+El operando fuente es una constante, formando parte de la instrucción.
 
+	Que es el direccionamiento inmediato con desplazamiento o rotacion?
+Es una variante del anterior en la cual se permiten operaciones intermedias sobre los registros.
+
+	Que es Direccionamiento a memoria, sin actualizar registro puntero?
+Es la forma más sencilla y admite 4 variantes. Después del acceso a memoria ningún registro implicado en el cálculo de la dirección se modifica.Simplemente añade (o sustrae) un valor inmediato al registro dado para calcular la dirección.
+
+	Que es Direccionamiento a memoria, actualizando registro puntero?
+En este modo de direccionamiento, el registro que genera la dirección se actualiza con la propia dirección. De esta forma podemos recorrer un array con un sólo registro
+sin necesidad de hacer el incremento del puntero en una instrucción aparte.
+
+	Cuales son los tipos de datos basicos?
+.byte , .hword , .short , .word , .int ,.quad
+
+	Que espacio ocupa un puntero?
+Un puntero siempre ocupa 32 bits y contiene una dirección de memoria.
+
+	Donde se almacenan los vectores?
+Todos los elementos de un vector se almacenan en un único bloque de
+memoria a partir de una dirección determinada. Los diferentes elementos se almacenan en posiciones consecutivas, de manera que el elemento i está entre los i-1 e
+i+1. 
+	Donde se almacenan las matrices bidimensionales?
+Una matriz bidimensional de N×M elementos se almacena en un único bloque de memoria. Interpretaremos una matriz de N×M como una matriz con N filas de M elementos cada una. Si cada elemento de la matriz ocupa B bytes, la matriz ocupará un bloque de M ×N ×B bytes.
+	
+	Método para determinar si una constante entra o no en una instrucción mov?
+Pasar la constante a binario y quitar los ceros de la izquierda y de la derecha y contar el número de bits resultante
+	
 ---CAPITULO 3---
 	Que es una pila?
 Se denomina pila de programa a aquella zona de memoria, organizada de forma
