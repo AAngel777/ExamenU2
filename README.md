@@ -66,7 +66,27 @@ Sólo tenemos una sección de código (la sección .text), y no estamos obligado
 	☸El procesador GPU empieza a ejecutar la primera etapa del bootloader
 	☸En la segunda etapa se activa la SDRAM y se carga la tercera parte del bootloader, cuyo código está repartido entre loader.bin (opcional) y start.elf
 	☸En tercera y última etapa del bootloader se accede opcionalmente a dos archivos ASCII de configuración llamados config.txt y cmdline.txt. 
+	
+	Que es el GPIO?
+Conjunto de señales mediante las cuales la CPU se comunica con
+distintas partes de la Rasberry tanto internamente (audio analógico, tarjeta SD o
+LEDs internos) como externamente a través de los conectores P1 y P5.
+	
+	Que direccion tienen en memoria los puertos del GPIO?
+Toman como base la dirección 0x20200000
 
+	Cuantos grupos fncionales tiene el puerto GPFSEL0?
+Diez grupos funcionales llamados FSELx (del 0 al 9) de 3 bits cada uno, quedando los dos bits más altos sin usar
+
+	Para que sirven los puertos GPEDSn?
+Sirven para detectar qué pin ha provocado una interrupción en caso de usarlo como lectura.
+
+	Para que sirven los puertos GPRENn?
+Con estos puertos enmascaramos los pines que queremos que provoquen una interrupción en flanco de subida, esto es cuando hay una transición
+de 0 a 1 en el pin de entrada.
+
+
+	
 </pre>
 
 
