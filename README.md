@@ -30,7 +30,7 @@ García Cerillo Angel Albino
 
 	</p>
 -----------------------------------------------------------------------------------------------------------------
-**---CAPITULO 2---**
+_ _ ---CAPITULO 2--- _ _
 	**Como se accede a memoria en ARM?**
 En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones
 específicas ldr y str
