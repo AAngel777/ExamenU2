@@ -30,10 +30,6 @@ García Cerillo Angel Albino
 
 	</p>
 
-</pre>
-
-
-
 ---CAPITULO 2---
 Preguntas
 Como se accede a memoria en ARM?
@@ -55,3 +51,7 @@ Si queremos interactuar con las librerías del sistema, tanto para llamar a func
 Para que se usa un .eq?
 Para facilitar la legibilidad del código (asignandoo nombres  a variables locales)
 ---CAPITULO 4---
+
+</pre>
+
+
