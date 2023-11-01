@@ -29,7 +29,7 @@ Estudiante:
 García Cerillo Angel Albino
 
 	</p>
-
+-----------------------------------------------------------------------------------------------------------------
 ---CAPITULO 2---
 Preguntas
 Como se accede a memoria en ARM?
