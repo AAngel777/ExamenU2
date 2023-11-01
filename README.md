@@ -34,13 +34,13 @@ García Cerillo Angel Albino
 
 
 
-*CAPITULO 2*
+---CAPITULO 2---
 Preguntas
 Como se accede a memoria en ARM?
 En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones
 específicas ldr y str
 
-*CAPITULO 3*
+---CAPITULO 3---
 Que es una pila?
 Se denomina pila de programa a aquella zona de memoria, organizada de forma
 LIFO (Last In, First Out)
@@ -54,4 +54,4 @@ Si queremos interactuar con las librerías del sistema, tanto para llamar a func
 
 Para que se usa un .eq?
 Para facilitar la legibilidad del código (asignandoo nombres  a variables locales)
-*CAPITULO 4*
+---CAPITULO 4---
